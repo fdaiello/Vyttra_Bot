@@ -1,0 +1,75 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "fJURn2",
+    "name": "Inicial-Vyttra",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "5KHHZ6"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "2VmfzE"
+          },
+          "activity": "${SendActivity_2VmfzE()}"
+        },
+        {
+          "$kind": "Microsoft.TextInput",
+          "$designer": {
+            "id": "3bNOyS"
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${TextInput_Prompt_3bNOyS()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "property": "user.name"
+        },
+        {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "iJQwzF"
+          },
+          "property": "user.fullName",
+          "value": "user.name"
+        },
+        {
+          "$kind": "Microsoft.TextInput",
+          "$designer": {
+            "id": "KNzdIY"
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": true,
+          "allowInterruptions": false,
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "prompt": "${TextInput_Prompt_KNzdIY()}"
+        },
+        {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "uDzLCb"
+          },
+          "property": "user.transferagent",
+          "value": "Sim"
+        }
+      ]
+    }
+  ],
+  "generator": "Inicial-Vyttra.lg",
+  "recognizer": "Inicial-Vyttra.lu.qna",
+  "id": "Inicial-Vyttra"
+}

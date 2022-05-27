@@ -1,0 +1,29 @@
+[import](common.lg)
+
+# SendActivity_2VmfzE()
+[Activity
+    Text = ${SendActivity_2VmfzE_text()}
+]
+
+# SendActivity_2VmfzE_text()
+- Olá, sou a assistente virtual no Digital Care da Vyttra Diagnósticos.
+# TextInput_Prompt_3bNOyS()
+[Activity
+    Text = ${TextInput_Prompt_3bNOyS_text()}
+]
+
+# TextInput_Prompt_3bNOyS_text()
+- Qual é o seu nome?
+# TextInput_Prompt_KNzdIY()
+[Activity
+    Text = ${TextInput_Prompt_KNzdIY_text()}
+]
+
+# TextInput_Prompt_KNzdIY_text()
+- ```Por favor, selecione uma opção:
+
+• Para dúvidas sobre Autoteste, digite 1;
+• Se você quer falar sobre Teste Rápido, digite 2;
+• Para suporte Técnico ou Científico de equipamentos, digite 3;
+• Sugestões ou Reclamações 4;
+• Outros assuntos 5.```

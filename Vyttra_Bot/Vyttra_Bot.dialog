@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "name": "Vyttra_Bot",
+    "description": "",
+    "id": "A79tBe"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnConversationUpdateActivity",
+      "$designer": {
+        "id": "376720",
+        "comment": "This trigger runs when a conversation update activity is sent to the bot. This indicates a user or bot being added or removed from a conversation."
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "DZkZoj"
+          },
+          "activityProcessed": true,
+          "dialog": "Inicial-Vyttra"
+        }
+      ]
+    }
+  ],
+  "generator": "Vyttra_Bot.lg",
+  "id": "Vyttra_Bot",
+  "recognizer": "Vyttra_Bot.lu.qna"
+}

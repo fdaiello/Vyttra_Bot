@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.LuisRecognizer",
+  "id": "LUIS_Vyttra_Bot",
+  "applicationId": "=settings.luis.Vyttra_Bot_pt_br_lu.appId",
+  "version": "=settings.luis.Vyttra_Bot_pt_br_lu.version",
+  "endpoint": "=settings.luis.endpoint",
+  "endpointKey": "=settings.luis.endpointKey"
+}

@@ -38,14 +38,6 @@
           "property": "user.name"
         },
         {
-          "$kind": "Microsoft.SetProperty",
-          "$designer": {
-            "id": "iJQwzF"
-          },
-          "property": "user.fullName",
-          "value": "user.name"
-        },
-        {
           "$kind": "Microsoft.TextInput",
           "$designer": {
             "id": "KNzdIY"
